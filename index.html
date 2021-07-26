@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>ShadowDOM Demo</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="my-class">
+            First My-Class in main DOM.
+        </div>
+
+        <div id="shadow-root"></div>
+        
+        <div class="my-class">
+            Second My-Class in main DOM.
+        </div>
+
+        <script src="widget.js" data-target="#shadow-root"></script>
+    </body>
+</html>

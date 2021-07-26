@@ -1,0 +1,7 @@
+.my-class {
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
